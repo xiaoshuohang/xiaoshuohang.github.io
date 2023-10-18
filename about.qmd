@@ -2,8 +2,6 @@
 title: "hi i am shuohang"
 ---
 
-About this site
+hello i am shuohang , i am a year 2 nus student majoring in communications and new media.
 
-```{r}
-1 + 1
-```
+I love animals
