@@ -1,0 +1,12 @@
+name: MyshinyApp
+title: MyshinyApp
+username: has7k1-shuohang-xiao
+account: has7k1-shuohang-xiao
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10307827
+bundleId: 7850854
+url: https://has7k1-shuohang-xiao.shinyapps.io/MyshinyApp/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

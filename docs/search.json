@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "xiaoshuohang.github.io",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quartowebsites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "github.html",
+    "href": "github.html",
+    "title": "github",
+    "section": "",
+    "text": "https://github.com/xiaoshuohang/xiaoshuohang"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "hi i am shuohang",
+    "section": "",
+    "text": "hello i am shuohang , i am a year 2 nus student majoring in communications and new media.\nI love animals\n\nlibrary(shiny)\n\n# Define UI for application that draws a histogram\nui &lt;- fluidPage(\n  \n  # Application title\n  titlePanel(\"Old Faithful Geyser Data\"),\n  \n  # Sidebar with a slider input for number of bins \n  sidebarLayout(\n    sidebarPanel(\n      sliderInput(\"bins\",\n                  \"Number of bins:\",\n                  min = 1,\n                  max = 50,\n                  value = 30)\n    ),\n    \n    # Show a plot of the generated distribution\n    mainPanel(\n      plotOutput(\"distPlot\"),\n      img(src=\"tur.png\",height=140,width=400),\n      \n      \n    )\n  )\n)\n\n# Define server logic required to draw a histogram\nserver &lt;- function(input, output) {\n  \n  output$distPlot &lt;- renderPlot({\n    # generate bins based on input$bins from ui.R\n    x    &lt;- faithful[, 2]\n    bins &lt;- seq(min(x), max(x), length.out = input$bins + 1)\n    \n    # draw the histogram with the specified number of bins\n    hist(x, breaks = bins, col = 'darkgray', border = 'white',\n         xlab = 'Waiting time to next eruption (in mins)',\n         main = 'Histogram of waiting times')\n  })\n}\n\n# Run the application \nshinyApp(ui = ui, server = server)\n\nShiny applications not supported in static R Markdown documents"
+  }
+]
