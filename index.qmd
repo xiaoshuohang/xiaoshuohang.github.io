@@ -1,14 +1,24 @@
 ---
-title: "xiaoshuohang.github.io"
+title: "distinctive marine species from various categories"
 ---
 
-This is a Quarto website.
+Dive into a captivating visual journey through the breathtaking world of distinctive marine species. On this website page, you'll encounter a series of stunning photographs showcasing some of the ocean's most extraordinary inhabitants. From the mesmerizing colors of the leafy sea dragon to the formidable strength of the mantis shrimp, our collection of images captures the sheer diversity and beauty that thrives beneath the waves.
 
-To learn more about Quartowebsites visit <https://quarto.org/docs/websites>.
+**Click on the Images for More Information**: By clicking on each picture, you can access in-depth information about the featured marine species. Learn about their habits, habitats, unique characteristics, and the challenges they face in today's changing world. Discover how these remarkable creatures contribute to the delicate balance of ocean ecosystems.
 
-```{r}
+![![](images/11.png){width="135"}]()
 
+[![Mantis shrimp](index/www/shrimps.png)](https://en.wikipedia.org/wiki/Mantis_shrimp)
 
+[![Nautilus](index/www/nautilus%20鹦鹉螺.png){width="641"}](https://en.wikipedia.org/wiki/Nautilus)
+
+[![Leafy Seadragon](images/野性龙.png){width="600"}](https://en.wikipedia.org/wiki/Leafy_seadragon)
+
+[![Nudibranch](images/Nudibranch.png)](https://en.wikipedia.org/wiki/Nudibranch)
+
+[![Mola Mola(The ocean sunfish)](images/mola%20mola.png)](https://en.wikipedia.org/wiki/Ocean_sunfish)
+
+```         
+<iframe height="400" width="100%" frameborder="no" src="<iframe height="400" width="100%" frameborder="no" src="https://has7k1-shuohang-xiao.shinyapps.io/xiaoshuohang/"> </iframe>
+"> </iframe>
 ```
-
-![![](images/11.png)]()
