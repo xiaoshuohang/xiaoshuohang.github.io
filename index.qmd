@@ -12,13 +12,15 @@ Dive into a captivating visual journey through the breathtaking world of distinc
 
 [![Nautilus](index/www/nautilus%20鹦鹉螺.png){width="641"}](https://en.wikipedia.org/wiki/Nautilus)
 
+```{=html}
+<p style="text-align: center;">Text_content</p>
+```
 [![Leafy Seadragon](images/野性龙.png){width="600"}](https://en.wikipedia.org/wiki/Leafy_seadragon)
 
 [![Nudibranch](images/Nudibranch.png)](https://en.wikipedia.org/wiki/Nudibranch)
 
 [![Mola Mola(The ocean sunfish)](images/mola%20mola.png)](https://en.wikipedia.org/wiki/Ocean_sunfish)
 
-```         
-<iframe height="400" width="100%" frameborder="no" src="<iframe height="400" width="100%" frameborder="no" src="https://has7k1-shuohang-xiao.shinyapps.io/xiaoshuohang/"> </iframe>
-"> </iframe>
+```{=html}
+<iframe height="400" width="100%" frameborder="no" src="https://has7k1-shuohang-xiao.shinyapps.io/xiaoshuohang/"> </iframe>
 ```
