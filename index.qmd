@@ -6,21 +6,28 @@ Dive into a captivating visual journey through the breathtaking world of distinc
 
 **Click on the Images for More Information**: By clicking on each picture, you can access in-depth information about the featured marine species. Learn about their habits, habitats, unique characteristics, and the challenges they face in today's changing world. Discover how these remarkable creatures contribute to the delicate balance of ocean ecosystems.
 
-![![](images/11.png){width="135"}]()
+![]()
 
-[![Mantis shrimp](index/www/shrimps.png)](https://en.wikipedia.org/wiki/Mantis_shrimp)
-
-[![Nautilus](index/www/nautilus%20鹦鹉螺.png){width="641"}](https://en.wikipedia.org/wiki/Nautilus)
+[![Click on the image for more information](index/www/shrimps.png)](https://en.wikipedia.org/wiki/Mantis_shrimp)
 
 ```{=html}
-<p style="text-align: center;">Text_content</p>
+<p style="text-align: center;">Mantis Shrimp</p>
 ```
-[![Leafy Seadragon](images/野性龙.png){width="600"}](https://en.wikipedia.org/wiki/Leafy_seadragon)
+[![Click on the image for more information](index/www/nautilus%20鹦鹉螺.png){width="641"}](https://en.wikipedia.org/wiki/Nautilus)
 
-[![Nudibranch](images/Nudibranch.png)](https://en.wikipedia.org/wiki/Nudibranch)
+```{=html}
+<p style="text-align: center;">Nautilus</p>
+```
+[![Click on the image for more information](images/野性龙.png){width="600"}](https://en.wikipedia.org/wiki/Leafy_seadragon)
 
-[![Mola Mola(The ocean sunfish)](images/mola%20mola.png)](https://en.wikipedia.org/wiki/Ocean_sunfish)
+```{=html}
+<p style="text-align: center;">Leafy Seadragon</p>
+```
+[![Click on the image to know more information](images/mola%20mola.png)](https://en.wikipedia.org/wiki/Ocean_sunfish)
 
+```{=html}
+<p style="text-align: center;">Mola Mola (The ocean sunfish)</p>
+```
 ```{=html}
 <iframe height="400" width="100%" frameborder="no" src="https://has7k1-shuohang-xiao.shinyapps.io/xiaoshuohang/"> </iframe>
 ```

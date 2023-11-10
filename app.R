@@ -8,6 +8,8 @@
 #
 
 library(tidyverse)
+library(hrbrthemes)
+library(viridis)
 
 df <- read_csv("marine1.csv")
 df1 <- df %>% select(Latitude, `Species Count`)
@@ -19,40 +21,56 @@ library(shiny)
 ui <- fluidPage(
   
   # Application title
-  titlePanel("Relationship between latitude and marine species"),
+  titlePanel("Different locations have different marine species densities"),
   
   # Sidebar with a slider input for number of bins 
   sidebarLayout(
     sidebarPanel(
-      sliderInput("df1",
-                  "latitude",
-                  min = 1,
-                  max = 90,
-                  value =2)
-    ),
+      sliderInput("minxres",
+                  "Minimum Latitude",
+                  min = -120,
+                  max = 0,
+                  value =2),
+      sliderInput("maxxres",
+                "Maximum Latitude",
+                min = 0,
+                max = 120,
+                value =2),
+      sliderInput("minyres",
+                "Minimum Longitude",
+                min = -120,
+                max = 0,
+                value =2),
+      sliderInput("maxyres",
+            "Maximum Longitude",
+            min = 0,
+            max = 200,
+            value =2)
+            ),
     
     # Show a plot of the generated distribution
-    mainPanel(
-      plotOutput("distPlot"),
+    mainPanel( h1("Drag the sliderbars to see the species count in different longtitude and latitude",align = "center"),
+               em("This a marine life distribution map of a specific area on Earth,explore the marine life in this particular region by use the slider bar beside to set the ranges of the longtitude and latitude.",align="left"),
+                plotOutput("distPlot"),
+     
+      
+          
+       )
     
-      
-      
     )
   )
-)
+
 
 # Define server logic required to draw a histogram
 server <- function(input, output) {
   
   output$distPlot <- renderPlot({
-    # generate bins based on input$bins from ui.R
-    x    <- faithful[, 2]
-    bins <- seq(min(x), max(x), length.out = input$df1 + 1)
-    
-    # draw the histogram with the specified number of bins
-    hist(x, breaks = bins, col = 'blue', border = 'black',
-         xlab = 'latitude',
-         main = 'no. of marine species')
+   
+    ggplot(df,aes(x=Latitude,y=Longitude,fill=`Species Count`)) + geom_tile() +
+      scale_x_continuous(limits=c(input$minxres,input$maxxres))+
+      scale_y_continuous(limits=c(input$minyres,input$maxyres))+ 
+      scale_fill_viridis(discrete=FALSE) +
+      theme_ipsum()
   })
 }
 
