@@ -49,8 +49,8 @@ ui <- fluidPage(
             ),
     
     # Show a plot of the generated distribution
-    mainPanel( h1("Drag the sliderbars to see the species count in different longtitude and latitude",align = "center"),
-               em("This a marine life distribution map of a specific area on Earth,explore the marine life in this particular region by use the slider bar beside to set the ranges of the longtitude and latitude.",align="left"),
+    mainPanel( em("Drag the sliderbars to see the species count in different longtitude and latitude", align = "center"),
+
                 plotOutput("distPlot"),
      
       

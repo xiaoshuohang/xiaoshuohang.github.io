@@ -5,7 +5,7 @@ library(shinyjs)
 
 # Define UI
 ui <- fluidPage(
-  titlePanel("Quiz App"),
+  titlePanel("Test your knowledge about marine life!"),
   
   sidebarLayout(
     sidebarPanel(
@@ -26,9 +26,9 @@ server <- function(input, output, session) {
   # Define questions
   questions <- list(
     Q1 = list(
-      prompt = "What is the largest living species of whale?",
-      options = c("Humpback Whale", "Blue Whale", "Killer Whale (Orca)"),
-      correct = "Blue Whale"
+      prompt = "How long can Mantis Shrimp grow to?",
+      options = c("10cm", "10mm", "10m"),
+      correct = "10m"
     ),
     Q2 = list(
       prompt = "Which species is known for its ability to change colors and patterns rapidly?",
@@ -51,28 +51,22 @@ server <- function(input, output, session) {
   })
   
   # Timer
-  timer <- reactiveVal(0)  # Initialize timer value
+  timer <- reactiveVal(60)  
   
   observe({
-    invalidateLater(1000)  # Update every second
+    invalidateLater(1000)  
     
     timer_value <- isolate(timer())
     
-    if (timer_value < 60) {
-      timer(timer_value + 1)
+    if (timer_value > 0) {
+      timer(timer_value - 1)
     }
   })
   
   # Update timer output
   output$timer <- renderText({
     timer_value <- timer()
-    paste("Time remaining: ", 60 - timer_value, " seconds")
-  })
-  
-  # Update timer output
-  output$timer <- renderText({
-    invalidateLater(1000)  # Update every second
-    timer()
+    paste("Time remaining: ", timer_value, " seconds")
   })
   
   # Evaluate user's answer on button click
@@ -91,11 +85,11 @@ server <- function(input, output, session) {
     }
   })
   
-  # Stop the quiz after 2 minutes
+  # Stop the quiz after the timer reaches 0
   observe({
     invalidateLater(1000)  # Check every second
     
-    if (timer() <= 0) {
+    if (timer() == 0) {
       showModal(modalDialog(
         title = "Quiz Over",
         "Time's up! Quiz has ended.",

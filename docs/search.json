@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "distinctive marine species from various categories",
+    "title": "Meet some of the distinctive marine species",
     "section": "",
     "text": "Dive into a captivating visual journey through the breathtaking world of distinctive marine species. On this website page, you’ll encounter a series of stunning photographs showcasing some of the ocean’s most extraordinary inhabitants. From the mesmerizing colors of the leafy sea dragon to the formidable strength of the mantis shrimp, our collection of images captures the sheer diversity and beauty that thrives beneath the waves.\nClick on the Images for More Information: By clicking on each picture, you can access in-depth information about the featured marine species. Learn about their habits, habitats, unique characteristics, and the challenges they face in today’s changing world. Discover how these remarkable creatures contribute to the delicate balance of ocean ecosystems.\n\n\n\n\nClick on the image for more information\n\n\nMantis Shrimp\n\n\n\nClick on the image for more information\n\n\nNautilus\n\n\n\nClick on the image for more information\n\n\nLeafy Seadragon\n\n\n\nClick on the image to know more information\n\n\nMola Mola (The ocean sunfish)"
   },
@@ -16,7 +16,7 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "hi i am shuohang",
+    "title": "conditions of marines pollution",
     "section": "",
     "text": "hello i am shuohang , i am a year 2 nus student majoring in communications and new media.\nI love animals"
   },
@@ -26,5 +26,26 @@
     "title": "distinctive marine species from various categories",
     "section": "",
     "text": "It is important for us, as human beings, to have a greater understanding of the marine time species\nClick on the pirtures of the dinctictive marine species to get more informations about them\n\n\n\n\nMantis shrimp\n\n\n\n\n\nnautilus\n\n\n\n\n\nLeafy Sea Dragon"
+  },
+  {
+    "objectID": "Untitled.html",
+    "href": "Untitled.html",
+    "title": "week12",
+    "section": "",
+    "text": "This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.\nWhen you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n\n\"\"\n\n[1] \"\""
+  },
+  {
+    "objectID": "Untitled.html#r-markdown",
+    "href": "Untitled.html#r-markdown",
+    "title": "week12",
+    "section": "",
+    "text": "This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.\nWhen you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n\n\"\"\n\n[1] \"\""
+  },
+  {
+    "objectID": "Untitled.html#including-plots",
+    "href": "Untitled.html#including-plots",
+    "title": "week12",
+    "section": "Including Plots",
+    "text": "Including Plots\nYou can also embed plots, for example:\n\n\n\n\n\nNote that the echo = FALSE parameter was added to the code chunk to prevent printing of the R code that generated the plot."
   }
 ]
