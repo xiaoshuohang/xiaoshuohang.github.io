@@ -1,34 +1,110 @@
 ---
-title: "Meet some of the distinctive marine species "
+title: "Let's explore the breathtaking world of distinctive marine species!!"
 ---
 
-Dive into a captivating visual journey through the breathtaking world of distinctive marine species. On this website page, you'll encounter a series of stunning photographs showcasing some of the ocean's most extraordinary inhabitants. From the mesmerizing colors of the leafy sea dragon to the formidable strength of the mantis shrimp, our collection of images captures the sheer diversity and beauty that thrives beneath the waves.
-
-**Click on the Images for More Information**: By clicking on each picture, you can access in-depth information about the featured marine species. Learn about their habits, habitats, unique characteristics, and the challenges they face in today's changing world. Discover how these remarkable creatures contribute to the delicate balance of ocean ecosystems.
-
-[![Click on the image for more information](index/www/shrimps.png)](https://en.wikipedia.org/wiki/Mantis_shrimp)
+🔍Before our exploration starts,how much do we truly know about them? Test your knowledge below👇\
 
 ```{=html}
-<p style="text-align: center;">Mantis Shrimp</p>
+<iframe height="400" width="100%" frameborder="no" src=" https://has7k1-shuohang-xiao.shinyapps.io/QUIZ1/"> </iframe>
 ```
-[![Click on the image for more information](index/www/nautilus%20鹦鹉螺.png){width="641"}](https://en.wikipedia.org/wiki/Nautilus)
+::: {style="color:#D839F8;text-shadow: 0 0 10px #0179c4, 0 0 20px #0179c4, 0 0 30px #0179c4;font-size:25px;font-weight:bold;"}
+With the curious spirit,let the exploration begin!
+:::
+
+------------------------------------------------------------------------
+
+::: {.callout-note style="color:#4590e7;background-color:#000139;font-family:Time News Roman"}
+## Defination of marine species
+
+Marine life, sea life, or ocean life is the plants, animals, and other organisms that live in the saltwater of seas oceans, or the salty water of coastal estuaries. At a fundamental level, marine life affects the nature of the planet.
+:::
+
+------------------------------------------------------------------------
+
+This webpage mainly discuss about the peculiar and endangered species:
+
+::: {.panel-tabset style="color:#91f7ff;background-color:#004999"}
+This webpage mainly discuss about the peculiar and endangered species:
+
+## Peculiar Species:
+
+*Beneath the waves of the Pacific Ocean lies the Clarion-Clipperton Zone, a vast expanse of mineral riches waiting to be explored. A recent analysis by the journal "Current Biology" estimates that this underwater realm is home to around 5,000 sea animals unknown to science. Astonishingly, scientists know more about the mysteries of space than the secrets hidden in the depths of our oceans. According to research from Dalhousie University in Nova Scotia, a staggering 91% of these marine animals remain undiscovered, underscoring the magnitude of the mysteries that still elude our understanding. The ocean, it seems, is a realm that rivals the enigma of the cosmos."*
+
+## Endangered Species:
+
+*Once seen as an infinite resource, the ocean now reveals a harsh truth --- many marine species are teetering on the edge of extinction. From the majestic whales to the playful dolphins, and the ancient sea turtles to the graceful seabirds, the populations of these creatures are dwindling at an alarming rate. 'More than 42,100 species are threatened with extinction, representing 28% of all assessed species,' warns the IUCN Red List. Among them, over 1,550 marine animals and plants are at risk, with climate change impacting 41% of threatened marine species. It's a stark reality that demands our attention and action. As the numbers rise --- 150,388 species on the Red List, 42,108 facing extinction --- so does the urgency to protect our oceans and the incredible life they harbor. Let us stand together to ensure that these waters, once viewed as boundless, remain a thriving home for generations to come.(Marinebio,2023)*
+:::
+
+### 1. Meet some of the most peculiar marine species {#sec-meet-some-of-the-most-peculiar-marine-species style="color:#d4e2ed"}
+
+::: {style="color:#d4e2ed;font-size:13px"}
+(**Click on the Images for More Information**)
+:::
 
 ```{=html}
-<p style="text-align: center;">Nautilus</p>
+<p style="text-align: center;font-size:25px; font-family: 'Papyrus', serif;color:#011a90;text-shadow: 0 0 10px #FBFC64, 0 0 5px #FBFC64, 0 0 30px #FBFC64;">Mantis Shrimp</p>
 ```
-[![Click on the image for more information](images/野性龙.png){width="600"}](https://en.wikipedia.org/wiki/Leafy_seadragon)
+[![Click on the image for more information](index/www/shrimps.png){style="font-size:30px" fig-align="center" width="1212"}](https://en.wikipedia.org/wiki/Mantis_shrimp)
 
 ```{=html}
-<p style="text-align: center;">Leafy Seadragon</p>
+<p style="text-align: center;font-size:25px;  font-family: 'Papyrus', serif;color:#011a90;text-shadow: 0 0 10px #FBFC64, 0 0 5px #FBFC64, 0 0 30px #FBFC64;">Nautilus</p>
 ```
-[![Click on the image to know more information](images/mola%20mola.png)](https://en.wikipedia.org/wiki/Ocean_sunfish)
+[![Click on the image for more information](index/www/nautilus%20鹦鹉螺.png){fig-align="center" width="1212"}](https://en.wikipedia.org/wiki/Nautilus)
 
 ```{=html}
-<p style="text-align: center;">Mola Mola (The ocean sunfish)</p>
+<p style="text-align: center;font-size:25px;font-family: 'Papyrus', serif;color:#011a90;text-shadow: 0 0 10px #FBFC64, 0 0 5px #FBFC64, 0 0 30px #FBFC64; ">Mola Mola (The ocean sunfish)</p>
 ```
+[![Click on the image to know more information](images/mola%20mola.png){width="1212"}](https://en.wikipedia.org/wiki/Ocean_sunfish)
+
+### 2. Meet some of the endangered species {style="color:#d4e2ed"}
+
+\
+
+```{=html}
+<p style="text-align: center;font-size:25px;font-family: 'Papyrus', serif;color:#011a90;text-shadow: 0 0 10px #FBFC64, 0 0 5px #FBFC64, 0 0 30px #FBFC64; ">
+Southern bluefin tuna</p>
+```
+[![Click on the image to know more information](images/tuna.png){width="1212"}](https://en.wikipedia.org/wiki/Southern_bluefin_tuna)
+
+```{=html}
+<p style="text-align: center;font-size:25px;font-family: 'Papyrus', serif;color:#011a90;text-shadow: 0 0 10px #FBFC64, 0 0 5px #FBFC64, 0 0 30px #FBFC64; ">Hawksbill sea turtle
+</p>
+```
+[![Click on the image for more information](images/tt.png){width="1212"}](https://en.wikipedia.org/wiki/Hawksbill_sea_turtle)
+
+```{=html}
+<p style="text-align: center;font-size:25px;font-family: 'Papyrus', serif;color:#011a90;text-shadow: 0 0 10px #FBFC64, 0 0 5px #FBFC64, 0 0 30px #FBFC64; ">Coelacanth
+</p>
+```
+[![Click on the image for more information](images/1.png){width="1212"}](https://en.wikipedia.org/wiki/Coelacanth)
+
+\
+\
+
+```{=html}
+<p style="color:#fddb76;text-shadow: 0 0 50px #f9d3e3, 0 0 40px #f9d3e3, 0 0 30px #f9d3e3;font-size:25px;font-weight:bold;">💡After these explorations, do you have a clearer understanding now? Check it out here💁！
+</p>
+```
+```{=html}
+<iframe height="400" width="100%" frameborder="no" src="https://has7k1-shuohang-xiao.shinyapps.io/QUIZ1/"> </iframe>
+```
+
+------------------------------------------------------------------------
+
+### 3. What is the overall count of marine species in a broder perspective?
+
+::: {style="color:#f0f1e4"}
+After discovering these friends living beneath the surface, have you ever wondered about the broader perspective on the entire marine species?"
+
+::: {.callout-note style="background-color:#02407d;color:#c4deec" appearance="simple"}
+## About this application
+
+Play with the application below by adjusting the range of latitude and longitude on the 4 slider bars.This makes us delve into the investigation of the current conditions about the marine species counts.
+
+This app is a representation of a dataset provided by the Aqua Map, which includes the computer-generated predictions of the natural distribution of marinThis app is a representation of a dataset provided by the Aqua Map, which includes the computer-generated predictions of the natural distribution of marine species. These predictions are derived from the environmental preferences of each species, considering factors like depth, temperature,and their correlation with sea ice or coastal regions.This map primarily represents the marine species count within a distance of 50 km near the equator.e species. These predictions are derived from the environmental preferences of each species, considering factors like depth, temperature,and their correlation with sea ice or coastal regions.This map primarily represents the marine species count within a distance of 50 km near the equator.
+
 ```{=html}
 <iframe height="400" width="100%" frameborder="no" src="https://has7k1-shuohang-xiao.shinyapps.io/xiaoshuohang/"> </iframe>
 ```
-```{=html}
-<iframe height="400" width="100%" frameborder="no" src="https://has7k1-shuohang-xiao.shinyapps.io/quiz/"> </iframe>
-```
+:::
+:::

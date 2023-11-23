@@ -17,7 +17,7 @@ ui <- fluidPage(
   titlePanel("Category Values Visualization"),
   sidebarLayout(
     sidebarPanel(
-     
+    
       sliderInput("num_categories","Number of Categories:", 
                   min = 1, max = nrow(data), value = 1)
     ),

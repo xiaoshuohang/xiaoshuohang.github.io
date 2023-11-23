@@ -1,0 +1,12 @@
+name: ppdnc
+title: ppdnc
+username: has7k1-shuohang-xiao
+account: has7k1-shuohang-xiao
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10612894
+bundleId: 7962355
+url: https://has7k1-shuohang-xiao.shinyapps.io/ppdnc/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

@@ -1,11 +1,16 @@
 ---
-title: "conditions of marines pollution"
+title: "Marines Pollution "
 ---
-
-hello i am shuohang , i am a year 2 nus student majoring in communications and new media.
-
-I love animals
 
 ```{=html}
 <iframe height="400" width="100%" frameborder="no" src="https://has7k1-shuohang-xiao.shinyapps.io/quiz2/"> </iframe>
+```
+```{=html}
+<iframe height="400" width="100%" frameborder="no" src="https://has7k1-shuohang-xiao.shinyapps.io/Wast/"> </iframe>
+```
+```{=html}
+<iframe height="400" width="100%" frameborder="no" src="https://has7k1-shuohang-xiao.shinyapps.io/ppdnc/"> </iframe>
+```
+```{=html}
+<iframe height="400" width="100%" frameborder="no" src="https://hahahah.shinyapps.io/maps/"> </iframe>
 ```

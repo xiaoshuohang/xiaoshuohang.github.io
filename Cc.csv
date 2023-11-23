@@ -1,0 +1,11 @@
+GeonameID,Name,ASCII Name,Alternate Names,Latitude,Longitude,Feature Class,Feature Code,Country Code,Alternate Country Code,FIPS Code,Admin2 Code,Admin3 Code,Admin4 Code,Population,Elevation,Digital Elevation Model,Timezone,Modification Date
+2994701,Roc Meler,Roc Meler,"Roc Mele,Roc Meler,Roc MÃ©lÃ©",42.58765,1.7418,T,PK,AD,"AD,FR",02,,,,0,2811.0,2348,Europe/Andorra,2023-10-03
+3007683,Pic des Langounelles,Pic des Langounelles,Pic des Langounelles,42.61203,1.47364,T,PK,AD,"AD,FR",00,,,,0,,2685,Europe/Andorra,2014-11-05
+3017832,Pic de les Abelletes,Pic de les Abelletes,"Pic de la Font-Negre,Pic de la Font-NÃ¨gre,Pic de les Abelletes",42.52535,1.73343,T,PK,AD,FR,A9,66.0,663.0,66146.0,0,,2411,Europe/Andorra,2014-11-05
+3017833,Estany de les Abelletes,Estany de les Abelletes,"Estany de les Abelletes,Etang de Font-Negre,Ãtang de Font-NÃ¨gre",42.52915,1.7336200000000002,H,LK,AD,FR,A9,,,,0,,2260,Europe/Andorra,2014-11-05
+3023203,Port Vieux de la Coume dâOse,Port Vieux de la Coume d'Ose,"Port Vieux de Coume d'Ose,Port Vieux de Coume dâOse,Port Vieux de la Coume d'Ose,Port Vieux de la Coume dâOse",42.625679999999996,1.6182299999999998,T,PASS,AD,,00,,,,0,,2687,Europe/Andorra,2014-11-05
+3029315,Port de la Cabanette,Port de la Cabanette,"Port de la Cabanette,Porteille de la Cabanette",42.6,1.73333,T,PASS,AD,"AD,FR",B3,9.0,91.0,9139.0,0,,2379,Europe/Andorra,2014-11-05
+3034945,Port Dret,Port Dret,"Port Dret,Port de Bareites,Port de las Bareytes,Port des Bareytes",42.60172,1.4556200000000001,T,PASS,AD,,00,,,,0,,2660,Europe/Andorra,2014-11-05
+3038814,Costa de Xurius,Costa de Xurius,,42.50692,1.47569,T,SLP,AD,,07,,,,0,,1839,Europe/Andorra,2015-03-08
+3038815,Font de la Xona,Font de la Xona,,42.55003,1.44986,H,SPNG,AD,,04,,,,0,,1976,Europe/Andorra,2010-01-11
+3038816,Xixerella,Xixerella,,42.55327,1.48736,P,PPL,AD,,04,,,,0,,1417,Europe/Andorra,2009-04-24

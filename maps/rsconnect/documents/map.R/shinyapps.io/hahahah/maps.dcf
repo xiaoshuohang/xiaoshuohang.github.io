@@ -1,0 +1,12 @@
+name: maps
+title: maps
+username: hahahah
+account: hahahah
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10613049
+bundleId: 7962564
+url: https://hahahah.shinyapps.io/maps/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

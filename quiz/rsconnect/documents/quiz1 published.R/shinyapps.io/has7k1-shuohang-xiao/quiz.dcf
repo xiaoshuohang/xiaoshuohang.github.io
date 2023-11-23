@@ -1,0 +1,12 @@
+name: quiz
+title: quiz
+username: has7k1-shuohang-xiao
+account: has7k1-shuohang-xiao
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10531295
+bundleId: 7962167
+url: https://has7k1-shuohang-xiao.shinyapps.io/quiz/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

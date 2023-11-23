@@ -1,81 +1,47 @@
-#
-# This is a Shiny web application. You can run the application by clicking
-# the 'Run App' button above.
-#
-# Find out more about building applications with Shiny here:
-#
-#    http://shiny.rstudio.com/
-#
-
 library(tidyverse)
 library(hrbrthemes)
 library(viridis)
-
-df <- read_csv("marine1.csv")
-df1 <- df %>% select(Latitude, `Species Count`)
-
-
-
 library(shiny)
-# Define UI for application that draws a histogram
+library(shinyWidgets)
+library(shinyjs)  # Add shinyjs library for styling
+
+# Read your CSV file
+df <- read_csv("marine1.csv")
+
+# Define UI for the Shiny app
 ui <- fluidPage(
-  
-  # Application title
-  titlePanel("Different locations have different marine species densities"),
-  
-  # Sidebar with a slider input for number of bins 
+  titlePanel(div("Marine Species Count by Location",style = "color:#c4deec;")),
+  chooseSliderSkin("Sharp"),
   sidebarLayout(
     sidebarPanel(
-      sliderInput("minxres",
-                  "Minimum Latitude",
-                  min = -120,
-                  max = 0,
-                  value =2),
-      sliderInput("maxxres",
-                "Maximum Latitude",
-                min = 0,
-                max = 120,
-                value =2),
-      sliderInput("minyres",
-                "Minimum Longitude",
-                min = -120,
-                max = 0,
-                value =2),
-      sliderInput("maxyres",
-            "Maximum Longitude",
-            min = 0,
-            max = 200,
-            value =2)
-            ),
+      sliderInput("minxres", "Minimum Latitude", min = -120, max = 0, value = 2),
+      sliderInput("maxxres", "Maximum Latitude", min = 0, max = 120, value = 2),
+      sliderInput("minyres", "Minimum Longitude", min = -200, max = 0, value = 2),
+      sliderInput("maxyres", "Maximum Longitude", min = 0, max = 200, value = 2),
+      style="color:#fbe4d8 ;background-color:#0e32a1;height:400px;width:200px;" ),
     
-    # Show a plot of the generated distribution
-    mainPanel( em("Drag the sliderbars to see the species count in different longtitude and latitude", align = "center"),
-
-                plotOutput("distPlot"),
-     
-      
-          
-       )
     
+    mainPanel(
+      em("Drag the sliders to see the species count in different longitude and latitude", 
+         align = "left",
+         style = "color:white;"),  
+      plotOutput("distPlot", width = "70%"),
+      setBackgroundColor(color = c("#02407d"))
     )
   )
+)
 
-
-# Define server logic required to draw a histogram
+# Define server logic
 server <- function(input, output) {
-  
   output$distPlot <- renderPlot({
-   
-    ggplot(df,aes(x=Latitude,y=Longitude,fill=`Species Count`)) + geom_tile() +
-      scale_x_continuous(limits=c(input$minxres,input$maxxres))+
-      scale_y_continuous(limits=c(input$minyres,input$maxyres))+ 
-      scale_fill_viridis(discrete=FALSE) +
+    ggplot(df, aes(x = Longitude, y = Latitude, fill = `Species Count`)) +
+      geom_tile() +
+      scale_x_continuous(limits = c(input$minyres, input$maxyres)) +
+      scale_y_continuous(limits = c(input$minxres, input$maxxres)) +
+      scale_fill_viridis(discrete = FALSE) +
       theme_ipsum()
   })
 }
 
-# Run the application 
+# Run the Shiny app
 shinyApp(ui = ui, server = server)
-
-
-

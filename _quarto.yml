@@ -3,19 +3,22 @@ project:
   output-dir: docs
 
 website:
-  title: "ShuoHang's Website "
+  title: "OceanInsights: Species Diversity & Pollution"
   navbar:
     left:
       - href: index.qmd
-        text: Home
+        text: Species Diversity
       - about.qmd
       - github.qmd
+      - href: introduce.qmd
+        text: About Me
 
 
 format:
   html:
-    theme: darkly
-    css: styles.css
+    theme: Darkly
+    css: 
+    - styles.css
     toc: true
 
 editor: visual
