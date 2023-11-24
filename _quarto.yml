@@ -10,9 +10,7 @@ website:
         text: Species Diversity
       - about.qmd
       - github.qmd
-      - href: introduce.qmd
-        text: About Me
-
+      
 
 format:
   html:

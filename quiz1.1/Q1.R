@@ -1,25 +1,29 @@
-
 # Load libraries
 library(shiny)
 library(shinyjs)
+library(shinyWidgets)
+
 
 # Define UI
 ui <- fluidPage(
-  titlePanel("Test your knowledge about marine life!"),
+  titlePanel(div("Test your knowledge about marine life!",style="color:#524e88;")),
   
   sidebarLayout(
     sidebarPanel(
-      selectInput("question", "Select a Question:", choices = c("Q1", "Q2")),
-      actionButton("submitBtn", "Submit")
+      selectInput("question", "Select a Question:", choices = c("Q1", "Q2","Q3","Q4")),
+      actionButton("submitBtn", "Submit"),
+      style="color:#524e88;background-color:#b4dde3;" 
     ),
     
     mainPanel(
       uiOutput("questionUI"),
       textOutput("result"),
-      textOutput("timer")
+      textOutput("timer"),
+      setBackgroundColor(color = c("#EEEEEE","#a7ede7","#4e4feb"))
     )
   )
 )
+
 
 # Define server
 server <- function(input, output, session) {
@@ -28,16 +32,28 @@ server <- function(input, output, session) {
     Q1 = list(
       prompt = "How long can Mantis Shrimp grow to?",
       options = c("10cm", "10mm", "10m"),
-      correct = "10m"
+      correct = "10cm"
     ),
     Q2 = list(
-      prompt = "Which species is known for its ability to change colors and patterns rapidly?",
-      options = c("Clownfish", "Cuttlefish", "Seahorse"),
-      correct = "Cuttlefish"
-    )
-  )
+      prompt = "What is Nautilus?",
+      options = c("A type of fish", "A marine cephalopod", "A species of seaweed"),
+      correct = "A marine cephalopod"
+    ),
+    Q3 = list(
+      prompt = "Which ocean is the primary habitat for the Southern bluefin tuna?",
+      options = c("Atlantic Ocean", "Southern Ocean", "Indian Ocean"),
+      correct = "Indian Ocean"
+    ),
+    
+    Q4 = list(
+      prompt = "What do Hawksbill sea turtles primarily eat?",
+      options = c("Jellyfish", "Seagrasses", "Small fish"),
+      correct = "Jellyfish"
+    ))
   
-  # Render question based on user selection
+  
+  
+  
   output$questionUI <- renderUI({
     question <- input$question
     question_obj <- questions[[question]]
@@ -87,7 +103,7 @@ server <- function(input, output, session) {
   
   # Stop the quiz after the timer reaches 0
   observe({
-    invalidateLater(1000)  # Check every second
+    invalidateLater(1000)  
     
     if (timer() == 0) {
       showModal(modalDialog(

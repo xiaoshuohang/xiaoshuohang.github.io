@@ -1,13 +1,12 @@
-name: maps
-title: maps
+name: ppdnc
+title: ppdnc
 username: hahahah
 account: hahahah
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
-appId: 10613049
-bundleId: 7964555
-url: https://hahahah.shinyapps.io/maps/
+appId: 10616830
+bundleId: 7964434
+url: https://hahahah.shinyapps.io/ppdnc/
 version: 1
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: world map.R

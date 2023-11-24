@@ -5,8 +5,9 @@ account: has7k1-shuohang-xiao
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 10531368
-bundleId: 7929911
+bundleId: 7964586
 url: https://has7k1-shuohang-xiao.shinyapps.io/quiz2/
 version: 1
 asMultiple: FALSE
 asStatic: FALSE
+ignoredFiles: happy fish.png

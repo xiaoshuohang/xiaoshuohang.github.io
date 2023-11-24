@@ -14,12 +14,12 @@ library(shiny)
 library(leaflet)
 library(leaflet.extras)
 library(dplyr)
-
+library(shinyWidgets)
 
 ui <- fluidPage(
   mainPanel(align="center",
-   radioButtons("timeSelector", "Select Time Point", choices = c("year 2019", "30 years later")) ,      
-    leafletOutput("map",width="150%",height="300px")
+   radioButtons("timeSelector", "Select Time Point", choices = c("Current", "2040")) ,      
+    leafletOutput("map",width="150%",height="300px"), setBackgroundColor(color = c("#377ab9"))
    
   ),
 )
@@ -38,7 +38,7 @@ server <- function(input, output, session) {
     time_point <- input$timeSelector
     
     # Customize the markers based on the selected time point
-    if (time_point == "year 2019") {
+    if (time_point == "Current") {
       markers_data <- valid_data %>% mutate(radius = plastic_pollution,
                                             color = "red",
                                             popup = paste("Country: ", Entity, "<br>",

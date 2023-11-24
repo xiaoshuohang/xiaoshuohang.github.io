@@ -10,6 +10,8 @@
 # Load libraries
 library(shiny)
 library(shinyjs)
+library(shinyWidgets)
+
 
 # Define UI
 ui <- fluidPage(

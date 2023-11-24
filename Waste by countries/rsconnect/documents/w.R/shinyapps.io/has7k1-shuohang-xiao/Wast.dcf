@@ -5,7 +5,7 @@ account: has7k1-shuohang-xiao
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 10612782
-bundleId: 7962316
+bundleId: 7964324
 url: https://has7k1-shuohang-xiao.shinyapps.io/Wast/
 version: 1
 asMultiple: FALSE

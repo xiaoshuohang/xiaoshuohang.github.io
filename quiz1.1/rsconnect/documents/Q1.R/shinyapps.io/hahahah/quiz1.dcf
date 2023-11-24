@@ -1,13 +1,12 @@
-name: maps
-title: maps
+name: quiz1
+title: quiz1
 username: hahahah
 account: hahahah
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
-appId: 10613049
-bundleId: 7964555
-url: https://hahahah.shinyapps.io/maps/
+appId: 10616147
+bundleId: 7964016
+url: https://hahahah.shinyapps.io/quiz1/
 version: 1
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: world map.R

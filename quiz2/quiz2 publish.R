@@ -5,22 +5,23 @@
 # Find out more about building applications with Shiny here:
 #
 #    http://shiny.rstudio.com/
-#
-
+library(shiny)
+library(shinyWidgets)
 ui <- fluidPage(
-  titlePanel("Test your knowledge about marine life!"),
+  titlePanel("Marine Pollution Quiz"),
   
   sidebarLayout(
     sidebarPanel(
       selectInput("question", "Select a Question:", choices = c("Q1", "Q2","Q3")),
-      actionButton("submitBtn", "Submit")
+      actionButton("submitBtn", "Submit"),
+      style="background-color:#2772fa ;color:#071952;"
     ),
     
     mainPanel(
       uiOutput("questionUI"),
       textOutput("result"),
       textOutput("timer"),
-      
+      setBackgroundColor(color = c("#7180d7","#daa0fe"))
     )
   )
 )
@@ -28,30 +29,31 @@ ui <- fluidPage(
 
 # Define server
 server <- function(input, output, session) {
-  # Define questions
+  
   questions <- list(
     Q1 = list(
-      prompt = "How long can Mantis Shrimp grow to?",
-      options = c("10cm", "10mm", "10m"),
-      correct = "10m"
+      prompt = "What is a major contributor to marine pollution?",
+      options = c("Deforestation", "Air pollution", "Plastic waste"),
+      correct = "Plastic waste"
     ),
     Q2 = list(
-      prompt = "Which species is known for its ability to change colors and patterns rapidly?",
-      options = c("Clownfish", "Cuttlefish", "Seahorse"),
-      correct = "Cuttlefish"
+      prompt = "What percentage of marine debris is estimated to sink into the ocean's ecosystem?",
+      options = c("30%", "70%", "50%"),
+      correct = "70%"
     ),
     Q3=list(
-      prompt = "Where can you find the leafy dragon in Australia?",
-      options = c("Northern and eastern coasts", "Southern and western coasts", " Central inland regions"),
-      correct = "Southern and western coasts"
+      prompt = "What is the primary source of microplastics in the oceans?",
+      options = c("Volcanic eruptions", "Industrial emissions", "Plastic bottles"),
+      correct = "Plastic bottles"
     )
   )
   
-  # Initialize reactive values
+  
+ #Timer
   timer <- reactiveVal(60)
   correct_answers <- reactiveVal(0)
   
-  # Render question based on user selection
+  # User interactive
   output$questionUI <- renderUI({
     question <- input$question
     question_obj <- questions[[question]]
@@ -75,13 +77,13 @@ server <- function(input, output, session) {
     }
   })
   
-  # Update timer output
+  # Update timer 
   output$timer <- renderText({
     timer_value <- timer()
     paste("Time remaining: ", timer_value, " seconds")
   })
   
-  # Evaluate user's answer on button click
+  # Evaluate user's answer
   observeEvent(input$submitBtn, {
     question <- input$question
     question_obj <- questions[[question]]
@@ -100,7 +102,7 @@ server <- function(input, output, session) {
   
   # Stop the quiz after the timer reaches 0
   observe({
-    invalidateLater(1000)  # Check every second
+    invalidateLater(1000)  
     
     if (timer() == 0) {
       showModal(modalDialog(
@@ -111,12 +113,6 @@ server <- function(input, output, session) {
       stopApp()
     }
   })
-  
-  # Show picture when all answers are correct
-  output.pictureShown <- reactive({
-    correct_answers() == length(questions)
-  })
 }
 
-# Run the app
 shinyApp(ui, server)

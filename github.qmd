@@ -1,5 +1,41 @@
 ---
-title: "github"
+title: "References and github"
 ---
 
-https://github.com/xiaoshuohang/xiaoshuohang
+Thank you for spending time on my Website!
+
+Here are the references and github link of the website.
+
+Github link:<https://github.com/xiaoshuohang/xiaoshuohang>
+
+References:
+
+*country code csv*. GitHub. (n.d.). https://github.com/albertyw/avenews/blob/master/old/data/average-latitude-longitude-countries.csv
+
+*Global plastics production*. Our World in Data. (n.d.). https://ourworldindata.org/grapher/global-plastics-production
+
+*Marine Species Biodiversity - AquaMaps - dataset*. Pacific Data Hub. (n.d.). https://pacificdata.org/data/dataset/marine-species-biodiversity-aquamapsfe383bc7-bd3d-4654-bb61-17d3d75f9f58
+
+*Marine Species Richness raw data - aquamaps - marine species biodiversity - aquamaps*. Nauru Environment Data Portal \| Environmental Information for Decision Making. (n.d.). https://nauru-data.sprep.org/resource/marine-species-richness-raw-data-aquamaps
+
+*Marine waste incidence per country - marine pollution in the Pacific*. Pacific Environment Data Portal \| Environmental Information for Decision Making. (n.d.-a). https://pacific-data.sprep.org/resource/marine-waste-incidence-country
+
+*Ocean trash: 5.25 trillion pieces and counting, but big questions remain*. Education. (n.d.). https://education.nationalgeographic.org/resource/ocean-trash-525-trillion-pieces-and-counting-big-questions-remain/
+
+These 50 weird deep sea creatures will blow your mind - popular mechanics. (n.d.). https://www.popularmechanics.com/science/animals/g210/strange-sea-animals-2/
+
+*Waste items by percentage - CVS - greening of the pacific games 2019*. Pacific Environment Data Portal \| Environmental Information for Decision Making. (n.d.-b). https://pacific-data.sprep.org/resource/waste-items-percentage-cvs
+
+::: {style="color:#5ca2f0"}
+produced by:
+
+Xiao Shuohang
+
+A0258566M
+
+Tel-98078138
+
+Email:E0969538\@u.nus.edu
+
+Github:<https://github.com/xiaoshuohang/xiaoshuohang>
+:::

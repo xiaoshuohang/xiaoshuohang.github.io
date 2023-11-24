@@ -4,30 +4,32 @@ colnames(plastic1)[colnames(plastic1) == "Annual.plastic.production.between.1950
 
 library(shiny)
 library(ggplot2)
+library(shinyWidgets)
 
 # Define UI
 ui <- fluidPage(
-  titlePanel("Plastic Production Over the Years"),
+  titlePanel(div("Plastic Production Over the Years",style = "color:#feb170;")),
+  chooseSliderSkin("Square"),
   sidebarLayout(
     sidebarPanel(
       sliderInput("yearRange", "Select Year Range", 
                   min = min(plastic1$Year), max = max(plastic1$Year), 
-                  value = c(min(plastic1$Year), max(plastic1$Year)), step = 1)
-    ),
+                  value = c(min(plastic1$Year), max(plastic1$Year)), step = 1),
+      style="color:#feb170 ;background-color:#377ab9;" ),
+   
     mainPanel(
-      plotOutput("lineChart")
+      plotOutput("lineChart"),
+      setBackgroundColor(color = c("#377ab9"))
     )
   )
 )
 
+
 # Define server
 server <- function(input, output) {
-  # Reactive function to filter data based on the selected year range
   filtered_data <- reactive({
     subset(plastic1, Year >= input$yearRange[1] & Year <= input$yearRange[2])
   })
-  
-  # Render line chart based on filtered data
   output$lineChart <- renderPlot({
     ggplot(filtered_data(), aes(x = Year, y = plastic_production)) +
       geom_line() +

@@ -9,21 +9,22 @@
 library(shiny)
 library(ggplot2)
 library(tidyverse)
-
+library(shinyWidgets)
 # Read data 
 data <- read.csv("app4.csv")
 
 # Define the UI
 ui <- fluidPage(
-  titlePanel("The most popular types of wastes"),
+  titlePanel(div("The most popular types of wastes",style = "color:#cfd89f;")),
   
   sidebarLayout(
     sidebarPanel(
-      selectInput("country", "Select Country:", choices = unique(data$Countries))
-    ),
+      selectInput("country", "Select Locations:", choices = unique(data$Countries)),
+      style="color:#cfd89f;background-color:#3e75ad"
+     ),
     
     mainPanel(
-      plotOutput("wastagePlot")
+      plotOutput("wastagePlot"),setBackgroundColor(color = c("#3e75ad"))
     )
   )
 )

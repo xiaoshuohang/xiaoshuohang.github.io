@@ -2,15 +2,86 @@
 title: "Marines Pollution "
 ---
 
+------------------------------------------------------------------------
+
+<div>
+
+Our ocean are burdened with an estimated 5.25 trillion pieces of plastic waste. 70% of our wastes sinks into the marine's ecosystem,with 15% float and another 15% reaches our beaches.In the past 10 years, we've made more plastic than the last century.
+
+</div>
+
+### 1. How much do you know about the pollution conditions of the oceans?Try it out!
+
 ```{=html}
 <iframe height="400" width="100%" frameborder="no" src="https://has7k1-shuohang-xiao.shinyapps.io/quiz2/"> </iframe>
 ```
+
+------------------------------------------------------------------------
+
+### 2.The general conditions of marine pollutions:
+
+(click on 2.1 and 2.2 to see different dataset)
+
+::: {.panel-tabset style="color:#cfd89f;background-color:#3e75ad;Height:1200px;"}
+## 2.1 Major marine waste by categories:
+
+This application is a representation of [a dataset](https://pacific-data.sprep.org/resource/waste-items-percentage-cvs) investigated by the SPREP ( the Pacific Regional Environment Programme) which shows the percentage of the majority of marine waste categories.
+
+::: callout-tip
+## Some interesting interactions on this app:
+
+1.  Uncheck the boxes of the categories to hide what you do not want to explore.
+2.  Take picture by clicking on the camera icon at the top right of the graph.
+3.  Place mouse on the bar plot to see more detailed information about this category.
+:::
+
+Among the categories,the polystyrene foam consititues the largest waste category, following closely behind are the 'plastics items' and 'plastic food packaging', which are the 2nd and 3rd major marine wast categories.
+
 ```{=html}
-<iframe height="400" width="100%" frameborder="no" src="https://has7k1-shuohang-xiao.shinyapps.io/Wast/"> </iframe>
+<iframe height="780" width="100%" frameborder="no" src="https://hahahah.shinyapps.io/polltnt/"> </iframe>
 ```
+## 2.2 Major waste per country:
+
+This app showcases another [set of data](https://pacific-data.sprep.org/resource/marine-waste-incidence-country) that is collected by the SPREP, which reveals the instances where different wastes are intentionally discarded from fishing vessels into various marine environment, the percentage of different types of the discharged waste are also shown in this graph.
+
+::: callout-note
+## Some interesting interaction on this app:
+
+1.  Choose different locations to see the what are the percentage of vrious types of wastes that is dumped in that area.
+:::
+
 ```{=html}
-<iframe height="400" width="100%" frameborder="no" src="https://has7k1-shuohang-xiao.shinyapps.io/ppdnc/"> </iframe>
+<iframe height="780" width="100%" frameborder="no" src="https://has7k1-shuohang-xiao.shinyapps.io/Wast/"> </iframe>
 ```
+It is clearly seen on the graph that the major type of waste dumped in most of the fishing vessels are Plastics.This observation highlights a concerning trend in marine pollution, as plastics are known for their long-lasting environmental impact and potential harm to marine ecosystems.
+:::
+
+\
+\
+
+### 3.Let us zoom in to see the plastic pollution conditions.
+
+::: {style="height:1500px;color:#feb170;background-color:#377ab9"}
+3.1
+
+Firstly, let us explore the increasing trend of the plastic production globally over years.
+
+This application represents [a curated dataset](https://ourworldindata.org/grapher/global-plastics-production) presenting a historical growing trend of global plastic production spanning from 1950 to 2019. To estimate figures for the years 2016 to 2018, a consistent annual growth rate of 5% was applied, aligning with the growth projections presented by the researher.
+
+```{=html}
+<iframe height="500" width="100%" frameborder="no" src="https://hahahah.shinyapps.io/ppdnc/"> </iframe>
+```
+3.2
+
+Further more, let us take a look at the world's plastic waste emitted to the ocean per capita in diferent countries, based on the [stastistic](https://ourworldindata.org/grapher/global-plastics-production) produced the journal Science Advance.
+
+According to the [Guardian](https://www.theguardian.com/environment/2020/jul/23/plastic-waste-entering-oceans-triple-20-years-research), there is likely to have three times more plastic waste emitted to the ocean in 2040. Click on the button to see the future prediction.
+
+Zoom in on the map and invetigate the detailed pollution rate of each country.Click on the red or blue dots to get more information.
+
 ```{=html}
 <iframe height="400" width="100%" frameborder="no" src="https://hahahah.shinyapps.io/maps/"> </iframe>
 ```
+:::
+
+### 

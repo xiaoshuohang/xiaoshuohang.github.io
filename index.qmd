@@ -5,7 +5,7 @@ title: "Let's explore the breathtaking world of distinctive marine species!!"
 🔍Before our exploration starts,how much do we truly know about them? Test your knowledge below👇\
 
 ```{=html}
-<iframe height="400" width="100%" frameborder="no" src=" https://has7k1-shuohang-xiao.shinyapps.io/QUIZ1/"> </iframe>
+<iframe height="400" width="100%" frameborder="no" src="https://hahahah.shinyapps.io/quiz1/"> </iframe>
 ```
 ::: {style="color:#D839F8;text-shadow: 0 0 10px #0179c4, 0 0 20px #0179c4, 0 0 30px #0179c4;font-size:25px;font-weight:bold;"}
 With the curious spirit,let the exploration begin!
@@ -86,7 +86,7 @@ Southern bluefin tuna</p>
 </p>
 ```
 ```{=html}
-<iframe height="400" width="100%" frameborder="no" src="https://has7k1-shuohang-xiao.shinyapps.io/QUIZ1/"> </iframe>
+<iframe height="400" width="100%" frameborder="no" src="https://hahahah.shinyapps.io/quiz1/"> </iframe>
 ```
 
 ------------------------------------------------------------------------
@@ -101,10 +101,12 @@ After discovering these friends living beneath the surface, have you ever wonder
 
 Play with the application below by adjusting the range of latitude and longitude on the 4 slider bars.This makes us delve into the investigation of the current conditions about the marine species counts.
 
-This app is a representation of a dataset provided by the Aqua Map, which includes the computer-generated predictions of the natural distribution of marinThis app is a representation of a dataset provided by the Aqua Map, which includes the computer-generated predictions of the natural distribution of marine species. These predictions are derived from the environmental preferences of each species, considering factors like depth, temperature,and their correlation with sea ice or coastal regions.This map primarily represents the marine species count within a distance of 50 km near the equator.e species. These predictions are derived from the environmental preferences of each species, considering factors like depth, temperature,and their correlation with sea ice or coastal regions.This map primarily represents the marine species count within a distance of 50 km near the equator.
+This app is a representation of a dataset provided by the [Aqua Map](https://pacificdata.org/data/dataset/marine-species-biodiversity-aquamapsfe383bc7-bd3d-4654-bb61-17d3d75f9f58), which includes the computer-generated predictions of the natural distribution of marine species. These predictions are derived from the environmental preferences of each species, considering factors like depth, temperature,and their correlation with sea ice or coastal regions.This map primarily represents the marine species count within a distance of 50 km near the equator,a total of [33,512 species](https://nauru-data.sprep.org/resource/marine-species-richness-raw-data-aquamaps) were used in the generation of this file.
+
+These predictions are derived from the environmental preferences of each species, considering factors like depth, temperature,and their correlation with sea ice or coastal regions.This map primarily represents the marine species count within a distance of 50 km near the equator.
+:::
 
 ```{=html}
-<iframe height="400" width="100%" frameborder="no" src="https://has7k1-shuohang-xiao.shinyapps.io/xiaoshuohang/"> </iframe>
+<iframe height="600" width="100%" frameborder="no" src="https://has7k1-shuohang-xiao.shinyapps.io/xiaoshuohang/"> </iframe>
 ```
-:::
 :::
